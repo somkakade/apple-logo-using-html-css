@@ -1,0 +1,72 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: azure;
+}
+.container {
+  position: relative;
+}
+.apple {
+  width: 208px;
+  height: 198px;
+  background-color: black;
+  border-radius: 36% 36% 42% 42% / 42% 42% 75% 75%;
+  -webkit-border-radius: 36% 36% 42% 42% / 42% 42% 75% 75%;
+  -moz-border-radius: 36% 36% 42% 42% / 42% 42% 75% 75%;
+  -ms-border-radius: 36% 36% 42% 42% / 42% 42% 75% 75%;
+  -o-border-radius: 36% 36% 42% 42% / 42% 42% 75% 75%;
+}
+.circle-one {
+  width: 100px;
+  height: 100px;
+  background-color: azure;
+  position: absolute;
+  top: -44%;
+  left: 25%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.circle-one::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  top: 32%;
+  left: 51%;
+  border-radius: 0 100px;
+  transform: rotate(90deg);
+}
+.circle-three {
+  width: 100px;
+  height: 100px;
+  background-color: azure;
+  position: absolute;
+  bottom: -47%;
+  right: 54px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.circle-two {
+  width: 100px;
+  height: 100px;
+  background-color: azure;
+  position: absolute;
+  top: 20%;
+  left: 81%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
